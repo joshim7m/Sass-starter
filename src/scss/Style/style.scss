@@ -1,0 +1,43 @@
+
+$theme-colors: (
+  "primary": #933C73,
+  "danger": #ff4136
+);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css";
+
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+p{
+	font-weight: 300;
+}
+
+
+
+// Smallest devices (landscape phones, 576px and down)
+@media (max-width: 575px) { 
+
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+ }
+
+// Medium devices (tablets, 768px and up) ================
+@media (min-width: 768px) { 
+
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+ }
